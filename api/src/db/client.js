@@ -3,8 +3,6 @@ import { drizzle } from 'drizzle-orm/node-postgres';
 import { config } from '../config.js';
 import * as schema from './schema.js';
 
-const unused = test
-
 const { Pool } = pkg;
 
 export const pool = new Pool({ connectionString: config.databaseUrl });
