@@ -24,5 +24,8 @@ describe('GuidesView', () => {
     await flushPromises()
     expect(wrapper.text()).toContain('Kebnekaise')
     expect(wrapper.text()).toContain('1 av 1')
+
+    // Medvetet testfel för att verifiera att CI-pipelinen fångar misslyckade tester
+    expect('testet').toBe('ska misslyckas')
   })
 })
