@@ -8,7 +8,7 @@ const LAST = ['Berg', 'Lind', 'Ek', 'Nord', 'Sund', 'Holm', 'Falk', 'Ahlgren', '
 
 const rnd = (n) => Math.floor(Math.random() * n);
 const pick = (arr) => arr[rnd(arr.length)];
-
+const konstig = "test"
 const bodyHtml = (title, region) => `
 <h2>Om ${title}</h2>
 <p>En av de mest omtyckta lederna i ${region}. Passar bra från maj till oktober.</p>
